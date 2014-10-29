@@ -30,11 +30,18 @@ function removeItem(e) {
 }
 
 function submitEdit(e) {
+	var firstValue = e.target.value;
 	if (e.keyCode == 13) {
 		e.target.parentElement.parentElement.children[3].style.display = "inline";
 		var newValue = e.target.value;
 		var div = e.target.parentElement;
 		div.innerHTML = newValue;
+	}
+	if (e.keyCode == 27) {
+		e.target.parentElement.parentElement.children[3].style.display = "inline";
+		var div = e.target.parentElement;
+		div.innerHTML = firstValue;
+	}
 	}
 }
 
