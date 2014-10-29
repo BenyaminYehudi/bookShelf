@@ -4,9 +4,10 @@ ul#bookList li div {
 }
 
 ul#booklist li span {
-	border-style: inset;
-	border-color: solid black;
+	border-style: outset;
+	border-color: solid blaouck;
 	padding: 3px;
+	margin: 2px;
 }
 
 .left {
