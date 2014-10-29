@@ -3,6 +3,12 @@ ul#bookList li div {
 	width: 30%;
 }
 
+ul#booklist li span {
+	border-style: inset;
+	border-color: solid black;
+	padding: 3px;
+}
+
 .left {
 	float: left;
 }
