@@ -42,7 +42,6 @@ function submitEdit(e) {
 		var div = e.target.parentElement;
 		div.innerHTML = firstValue;
 	}
-	}
 }
 
 function editItem(e){
