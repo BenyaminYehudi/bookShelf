@@ -29,8 +29,9 @@ function removeItem(e) {
 	e.target.parentElement.remove();
 }
 
+var firstValue;
+
 function submitEdit(e) {
-	var firstValue = e.target.value;
 	if (e.keyCode == 13) {
 		e.target.parentElement.parentElement.children[3].style.display = "inline";
 		var newValue = e.target.value;
@@ -50,6 +51,7 @@ function editItem(e){
 	input.setAttribute("type", "text");
 	input.setAttribute("value", divWeWantToReplace.innerHTML);
 	input.setAttribute("onkeyup", "submitEdit(event)");
+	firstValue = divWeWantToReplace.innerHTML;
 	divWeWantToReplace.innerHTML = '';
 	divWeWantToReplace.appendChild(input);
 	e.target.style.display = "none";
