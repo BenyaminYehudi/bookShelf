@@ -1,6 +1,6 @@
 ul#bookList li div {
 	display: inline-block;
-	width: 30%;
+	width: 25%;
 }
 
 ul#booklist li span {
@@ -20,7 +20,7 @@ ul#booklist li span {
 }
 
 .center {
-	width: 40% !important;
+	width: 35% !important;
 	text-align: center;
 }
 
