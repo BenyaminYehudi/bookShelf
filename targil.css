@@ -14,15 +14,15 @@ ul#booklist li span {
 	float:left;
 }
 
-.left {
+.nameOfBook {
 	
 }
 
-.right {
+.bookScore {
 	
 }
 
-.center {
+.nameOfAuthor {
 	width: 35% !important;
 	text-align: center;
 }
