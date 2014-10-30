@@ -61,13 +61,13 @@ function addToList(book) {
 		var newElement = document.createElement("li");
 		var bookNameDiv = document.createElement("div");
 		bookNameDiv.innerHTML = book.bookName;
-		bookNameDiv.className = "left";
+		bookNameDiv.className = "nameOfBook";
 		var authorNameDiv = document.createElement("div");
 		authorNameDiv.innerHTML = book.authorName;
-		authorNameDiv.className = "center";
+		authorNameDiv.className = "nameOfAuthor";
 		var scoreDiv = document.createElement("div");
 		scoreDiv.innerHTML = book.score;
-		scoreDiv.className = "right";
+		scoreDiv.className = "bookScore";
 		var x = document.createElement("span");
 		x.innerHTML = "x";
 		//x.onclick = removeItem;
