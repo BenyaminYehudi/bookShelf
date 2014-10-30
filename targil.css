@@ -12,6 +12,7 @@ ul#booklist li span {
 	padding: 3px;
 	margin: 2px;
 	float:left;
+	cursor:pointer;
 }
 
 .nameOfBook {
